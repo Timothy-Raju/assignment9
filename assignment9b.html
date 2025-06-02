@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment9b</title>
+</head>
+<body>
+    <script>
+        let score = window.prompt("Enter your marks out of 100 : ");
+        score = Number(score);
+        if(score>90 && score<=100){
+            document.write('Your Grade: A');
+        }
+        else if(score>80 && score<=90){
+            document.write('Your Grade: B');
+        }
+        else if(score>70 && score<=80){
+            document.write('Your Grade: C');
+        }
+        else if(score>60 && score<=70){
+            document.write('Your Grade: D');
+        }
+        else if(score>=50 && score<=60){
+            document.write('Your Grade: E');
+        }
+        else{
+            document.write('Your Grade: F');
+        }
+        
+    </script>
+</body>
+</html>
